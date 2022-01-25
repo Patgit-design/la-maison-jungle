@@ -1,0 +1,50 @@
+.lmj-plant-list {
+    list-style-type: none;
+    padding: 32px;
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 800px;
+    font-family: 'Murecho', sans-serif;
+}
+
+.lmj-btn-add {
+    background: #31b572;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #B5AC49, #31b572);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #B5AC49, #31b572);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    border-radius: 6px;
+    border: 1px solid #b2b8ad;
+    display: inline-block;
+    cursor: pointer;
+    color: #691207;
+    padding: 6px 24px;
+    text-decoration: none;
+    text-shadow: 0px 1px 0px #ced9bf;
+}
+
+.lmj-btn-add:hover {
+    background: linear-gradient(to bottom, #31b573 5%, #dbe6c4 100%);
+    background-color: #31b573;
+}
+
+.lmj-btn-add:active {
+    position: relative;
+    top: 1px;
+}
+
+.lmj-shopping-li {
+    float: right;
+}
+
+.lmj-layout-inner {
+    display: flex;
+    flex-direction: row;
+}
+
+@media (max-width: 800px) {
+    .lmj-layout-inner {
+        flex-direction: column;
+    }
+}

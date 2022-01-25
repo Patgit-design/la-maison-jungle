@@ -1,0 +1,15 @@
+.lmj-footer {
+    color: black;
+    padding: 32px;
+    border-top: solid 1px #691207;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: center;
+    font-weight: 500;
+    background-color: #69120746;
+}
+
+.lmj-footer-elem {
+    margin-bottom: 10px;
+}
