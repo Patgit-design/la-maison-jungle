@@ -15,8 +15,8 @@ function PlantItem({ cover, name, water, light, price }) {
             {name}
             <span className='lmj-plant-item-price'>{price}€</span>
             <div>
-                <CareScale careType='water' scaleValue={water} />
-                <CareScale careType='light' scaleValue={light} />
+                <CareScale  careType='water' scaleValue={water} />
+                <CareScale  careType='light' scaleValue={light} />
             </div>
         </li>
     )

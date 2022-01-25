@@ -1,13 +1,14 @@
 .lmj-footer {
-    color: black;
     padding: 32px;
     border-top: solid 1px #691207;
     display: flex;
     justify-content: flex-start;
     flex-direction: column;
     align-items: center;
-    font-weight: 500;
     background-color: #69120746;
+    position: sticky;
+    z-index: 1;
+    width: 100vw;
 }
 
 .lmj-footer-elem {
@@ -50,7 +51,7 @@
     display: inline-block;
     font-size: .9em;
     color: #ffffff;
-    width: 60%;
+    width: 10rem;
 
     padding: 0.5rem;
     margin: .8em;
@@ -58,4 +59,13 @@
     border-color: #691207;
     border-width: 1px;
     border-style: solid;
+}
+
+.lmj-input-mail {
+    width: 10rem;
+    border-radius: 25px 0 25px 0;
+    border-color: #691207;
+    padding: 0.5rem;
+    text-align: center;
+
 }

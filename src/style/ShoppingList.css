@@ -3,8 +3,10 @@
     padding: 32px;
     display: flex;
     flex-wrap: wrap;
-    max-width: 800px;
+  
     font-family: 'Murecho', sans-serif;
+    position: relative;
+    margin-left: 250px;
 }
 
 .lmj-btn-add {
@@ -15,13 +17,14 @@
     background: linear-gradient(to left, #B5AC49, #31b572);
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     border-radius: 6px;
-    border: 1px solid #b2b8ad;
+    border: 1px solid #f3f5f2;
     display: inline-block;
     cursor: pointer;
     color: #691207;
     padding: 6px 24px;
     text-decoration: none;
     text-shadow: 0px 1px 0px #ced9bf;
+    margin-left: 1rem;
 }
 
 .lmj-btn-add:hover {

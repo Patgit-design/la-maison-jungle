@@ -7,13 +7,15 @@
     /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to left, #B5AC49, #31b572);
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
     padding: 32px;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    width: 200px;
+    width: 100vw;
     box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+    position: fixed;
+    margin-top: 100px;
+    font-family: 'Murecho', sans-serif;
 }
 
 .lmj-cart-add-button {
@@ -34,11 +36,7 @@
 
 .lmj-cart-closed {
     padding: 1rem;
-    width: 200px;
-}
 
-.lmj-cart-closed>button {
-    color: black;
 }
 
 .lmj-img-panier {
@@ -50,3 +48,4 @@
 .lmj-txt-panier {
     color: #691207;
 }
+
