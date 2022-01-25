@@ -21,16 +21,16 @@ function Cart({ cart, updateCart }) {
                 Fermer
             </button>
             {cart.length > 0 ? (
-                <div>
+                <div className='lmj-cart-txt'>
                     <h2>Panier</h2>
                     <ul>
                         {cart.map(({ name, price, amount }, index) => (
                             <div key={`${name}-${index}`}>
-                                {name} {price}€ x {amount}
+                                {name} {price} €  x {amount}
                             </div>
                         ))}
                     </ul>
-                    <h3>Total :{total}€</h3>
+                    <h3>Total : {total}€</h3>
                     <button className='lmj-cart-toggle-button' onClick={() => updateCart([])}>Vider le panier</button>
                 </div>
             ) : (
