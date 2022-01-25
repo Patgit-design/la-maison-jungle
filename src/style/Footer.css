@@ -12,4 +12,50 @@
 
 .lmj-footer-elem {
     margin-bottom: 10px;
+    font-family: 'Licorice', cursive;
+    font-size: 1.6rem;
+    color: white;
+    letter-spacing: .18em;
+    font-weight: bolder;
+}
+
+/*
+.lmj-btn-send {
+    background-color: #691207;
+    padding: .5em;
+    margin: .8em;
+}
+*/
+
+.lmj-btn-send {
+    text-decoration: none;
+    box-shadow: inset #ffffff 0px 5px 8px -1px, #b87368 1px 3px 2px;
+    -moz-box-shadow: inset #ffffff 0px 5px 8px -1px, #b87368 1px 3px 2px;
+    -webkit-box-shadow: inset #ffffff 0px 5px 8px -1px, #b87368 1px 3px 2px;
+    background: #b55043;
+    background: -o-linear-gradient(90deg, #b55043, #691207);
+    background: -moz-linear-gradient(center top, #b55043 5%, #691207 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #b55043), color-stop(1, #691207));
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#b55043', endColorstr='#691207');
+    background: -webkit-linear-gradient(#b55043, #691207);
+    background: -ms-linear-gradient(#b55043, #691207);
+    background: linear-gradient(#b55043, #691207);
+    text-indent: 0px;
+
+    -moz-border-radius: 0 25px 0 25px;
+    -webkit-border-radius: 0 25px 0 25px;
+    border-radius: 0 25px 0 25px;
+    text-align: center;
+    vertical-align: middle;
+    display: inline-block;
+    font-size: .9em;
+    color: #ffffff;
+    width: 60%;
+
+    padding: 0.5rem;
+    margin: .8em;
+    text-shadow: #360a04 3px 2px 2px;
+    border-color: #691207;
+    border-width: 1px;
+    border-style: solid;
 }

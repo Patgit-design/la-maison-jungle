@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import '../style/Footer.css'
 
+
 function Footer() {
     const [inputValue, setInputValue] = useState('')
 
@@ -26,7 +27,7 @@ function Footer() {
                 value={inputValue}
                 onBlur={handleBlur}
             />
-            <input type="submit" />
+            <button className='lmj-btn-send' type="submit">Je m'inscris</button>
         </footer>
     )
 }
